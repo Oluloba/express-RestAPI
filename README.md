@@ -1,7 +1,6 @@
 # REST API with Express.js
 
-A simple REST API built using Express.js to perform CRUD operations on an in-memory data store.
-
+A simple REST API built using Express.js  that supports full CRUD operations using an in-memory data store. 
 ---
 
 ## Features
@@ -41,3 +40,5 @@ A simple REST API built using Express.js to perform CRUD operations on an in-mem
 ◾ PUT /items/:id — To update an existing item's name and description
 
 ◾ DELETE /items/:id — To remove an item from the list
+
+DELETE /items/:id — To remove an item from the list
