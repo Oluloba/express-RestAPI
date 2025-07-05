@@ -3,25 +3,22 @@ const app = express();
 const itemsRouter = require('./routes/items');
 const errorHandler = require('./middleware/errorHandler');
 
-app.use(express.json()); // Middleware to parse JSON
+app.use(express.json());
 
-// Root route
+// Root Route
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-// Use items routes
+// API Routes
 app.use('/items', itemsRouter);
 
-// Handle invalid routes
+// 404 Not Found Handler
 app.use((req, res, next) => {
   res.status(404).json({ error: 'Route not found' });
 });
 
-// Error handling middleware
+// Error Handler Middleware
 app.use(errorHandler);
 
-// Start server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
+module.exports = app;
