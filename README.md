@@ -27,6 +27,13 @@ A simple REST API built using Express.js  that supports full CRUD operations usi
 ##### Clone the repository
  https://github.com/Oluloba/express-RestAPI
  
+ ##### Install dependencies
+  npm install
+
+Start the deployment server:
+  npm run dev
+
+
 *Postman was used to test all API endpoints of the Express.js REST API.* 
 #### How Postman Was Used
 ◾ GET /items — To retrieve a list of all items
@@ -45,6 +52,8 @@ DELETE /items/:id — To remove an item from the list
 
 
 ### Example Item Structure
+- Create an Item and add a body 
+body: 
 {
   "id": 1,
   "name": "Sample Item",
@@ -52,7 +61,8 @@ DELETE /items/:id — To remove an item from the list
 }
 
 Postman Collection
-✅ Download Collection : https://www.postman.com/downloads/
+✅ Download Collection : https://www.postman.com/downloads/ and import this file into Postman for testing
+⚫ postman_collection.json
 
 
 ## Sample Request/Response
@@ -61,6 +71,24 @@ Postman Collection
 Request:
 ```json
 {
-  "name": "Notebook",
-  "description": "Lined A4 notebook"
+  "name": "Pen color",
+  "description": "Color Blue
 }
+
+Response 
+{
+  "id": 1,
+  "name": "Pen color",
+  "description": "Color Blue"
+}
+ ##GET /Items
+ Response
+ [
+  {
+    "id": 1,
+    name": "Pen color",
+    "description": "Color Blue"
+  }
+]
+
+

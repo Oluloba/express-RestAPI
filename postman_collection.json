@@ -35,33 +35,6 @@
 			"response": []
 		},
 		{
-			"name": "items/4",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "\r\n"
-				},
-				"url": {
-					"raw": "http://localhost:3000/items/2",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"items",
-						"2"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "items",
 			"request": {
 				"method": "GET",
@@ -110,16 +83,12 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "items/5",
 			"request": {
-				"method": "POST",
+				"method": "DELETE",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"Pen\",\r\n  \"description\": \"Black ink\"\r\n}\r\n"
-				},
 				"url": {
-					"raw": "http://localhost:3000/items/5",
+					"raw": "http://localhost:3000/items/8",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -127,41 +96,7 @@
 					"port": "3000",
 					"path": [
 						"items",
-						"5"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:3000/items",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "GET",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:3000/items",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"items"
+						"8"
 					]
 				}
 			},
