@@ -62,7 +62,7 @@ Create an Item and add a body
 		
 #### Postman Collection
 
-✅ Download the postman collection : https://www.postman.com/downloads/ and import this file into Postman for testing .../postman_collection.json
+✅ Download the postman collection : https://www.postman.com/downloads/ and import this file into Postman for testing (https://github.com/Oluloba/express-RestAPI/blob/main/postman_collection.json)
  
 
 
