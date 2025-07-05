@@ -53,3 +53,14 @@ DELETE /items/:id — To remove an item from the list
 
 Postman Collection
 ✅ Download Collection : https://www.postman.com/downloads/
+
+
+## Sample Request/Response
+
+### POST /items
+Request:
+```json
+{
+  "name": "Notebook",
+  "description": "Lined A4 notebook"
+}
