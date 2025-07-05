@@ -1,7 +1,6 @@
 # REST API with Express.js
 
-A simple REST API built using Express.js to perform CRUD operations on an in-memory data store.
-
+A simple REST API built using Express.js  that supports full CRUD operations using an in-memory data store. 
 ---
 
 ## Features
@@ -37,3 +36,18 @@ POST /items — To create new items by sending a JSON request body
 PUT /items/:id — To update an existing item's name and description
 
 DELETE /items/:id — To remove an item from the list
+
+## Example Item Structure
+
+```json
+{
+  "id": 1,
+  "name": "Sample Item",
+  "description": "This is a test item."
+}
+Postman Collection
+✅ Download Collection : https://www.postman.com/downloads/
+Running the Project
+bash
+npm install
+npm run dev

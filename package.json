@@ -1,16 +1,17 @@
 {
   "name": "rest-express-api",
   "version": "1.0.0",
+  "description": "A simple Express API with CRUD operations and custom middleware.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
-  "author": "",
+  "author": " Oluwatobiloba",
   "license": "ISC",
-  "description": "",
+  "keywords": ["express", "crud", "api", "node"],
   "dependencies": {
     "express": "^5.1.0"
   },
