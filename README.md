@@ -25,7 +25,7 @@ A simple REST API built using Express.js to perform CRUD operations on an in-mem
 ```bash
 git clone https://github.com/Oluloba/express-RestAPI
 
-
+---
 ### Postman was used to test all API endpoints of the Express.js REST API.
 
 ## How Postman Was Used
