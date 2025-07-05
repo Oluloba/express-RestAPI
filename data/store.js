@@ -1,3 +1,5 @@
+// data/store.js
+
 let items = [];
 let idCounter = 1;
 
