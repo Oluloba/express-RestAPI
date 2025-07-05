@@ -53,7 +53,3 @@ DELETE /items/:id — To remove an item from the list
 }
 Postman Collection
 ✅ Download Collection : https://www.postman.com/downloads/
-Running the Project
-bash
-npm install
-npm run dev
