@@ -27,20 +27,21 @@ A simple REST API built using Express.js to perform CRUD operations on an in-mem
 
 ### Clone the repository
 
+
 ```bash
 git clone https://github.com/Oluloba/express-RestAPI.git
 cd express-RestAPI
 
+*Postman was used to test all API endpoints of the Express.js REST API.* 
+#### How Postman Was Used
+◾ GET /items — To retrieve a list of all items
 
-### Postman was used to test all API endpoints of the Express.js REST API.
+◾ GET /items/:id — To fetch a specific item by its ID
 
-## How Postman Was Used
-GET /items — To retrieve a list of all items
+◾ GET /items/:id — To fetch a specific item by its ID
 
-GET /items/:id — To fetch a specific item by its ID
+◾ POST /items — To create new items by sending a JSON request body
 
-POST /items — To create new items by sending a JSON request body
+◾ PUT /items/:id — To update an existing item's name and description
 
-PUT /items/:id — To update an existing item's name and description
-
-DELETE /items/:id — To remove an item from the list
+◾ DELETE /items/:id — To remove an item from the list
