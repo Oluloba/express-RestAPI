@@ -7,21 +7,30 @@ A simple REST API built using Express.js to perform CRUD operations on an in-mem
 ## Features
 
 ◼ Create, Retrieve, Update, and Delete items 
+
 ◼ Simple in-memory data store 
+
 ◼ Proper error handling (400, 404, 500) 
+
 ◼ Middleware for JSON parsing and custom error handler 
+
 
 ❗ Error Handling
 ◼ 400 Bad Request: Missing or invalid data
+
 ◼ 404 Not Found: Item or route not found
+
 ◼ 500 Internal Server Error: General server error with details
+
 
 ##  📃Project Structure
 
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Oluloba/express-RestAPI '''
+git clone https://github.com/Oluloba/express-RestAPI.git
+cd express-RestAPI
+
 
 ### Postman was used to test all API endpoints of the Express.js REST API.
 
