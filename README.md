@@ -43,13 +43,13 @@ A simple REST API built using Express.js  that supports full CRUD operations usi
 
 DELETE /items/:id — To remove an item from the list
 
-## Example Item Structure
 
-```json
+### Example Item Structure
 {
   "id": 1,
   "name": "Sample Item",
   "description": "This is a test item."
 }
+
 Postman Collection
 ✅ Download Collection : https://www.postman.com/downloads/
