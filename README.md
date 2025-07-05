@@ -52,22 +52,18 @@ DELETE /items/:id — To remove an item from the list
 
 
 ### Example Item Structure
-- Create an Item and add a body 
+Create an Item and add a body
+
 body:
-
 {
-  "id": 1,
-
-  "name": "Sample Item",
-
-  "description": "This is a test item."
-
-}
-
+		"id": 1,
+		"name": "Sample Item"
+		"description": "This is a test item." 
+		}
+		
 ** Postman Collection
-✅ Download the postman collection
- : https://www.postman.com/downloads/ and import this file into Postman for testing
-⚫ postman_collection.json
+✅ Download the postman collection : https://www.postman.com/downloads/ and import this file into Postman for testing .../postman_collection.json
+ 
 
 
 ## Sample Request/Response
@@ -77,7 +73,7 @@ Request:
 ```json
 {
   "name": "Pen color",
-  "description": "Color Blue
+  "description": "Color Blue"
 }
 
 Response 
