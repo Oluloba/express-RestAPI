@@ -40,8 +40,6 @@ Start the deployment server:
 
 ◾ GET /items/:id — To fetch a specific item by its ID
 
-◾ GET /items/:id — To fetch a specific item by its ID
-
 ◾ POST /items — To create new items by sending a JSON request body
 
 ◾ PUT /items/:id — To update an existing item's name and description
@@ -55,7 +53,6 @@ DELETE /items/:id — To remove an item from the list
 Create an Item and add a body
 
 {
-		"id": 1,
 		"name": "Sample Item"
 		"description": "This is a test item." 
 }
